@@ -11,7 +11,7 @@
   border-radius: 5px;
 }
 
-header {
+.header-section {
   position: absolute;
   /* visibility: hidden; */
   left: 0px;
