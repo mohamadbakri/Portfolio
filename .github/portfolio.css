@@ -161,7 +161,7 @@ sapn {
   top: 73.83%;
   bottom: 23.42%;
   /* Neutrals/N400 */
-  background: #505f79;
+  /* background: #505f79; */
 }
 .linked-in {
   position: absolute;
@@ -169,38 +169,38 @@ sapn {
   right: 59.16%;
   top: 73.83%;
   bottom: 23.42%;
-  background: #505f79;
+  /* background: #505f79; */
 }
 .github {
   position: absolute;
-  left: 59.04%;
+  left: 54.04%;
   right: 36.16%;
   top: 73.83%;
   bottom: 23.42%;
   /* Neutrals/N400 */
-  background: #505f79;
+  /* background: #505f79; */
 }
 
 .medium {
   position: absolute;
-  left: 48.38%;
+  left: 44.38%;
   right: 46.29%;
   top: 74.1%;
   bottom: 23.69%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  /* background: #505f79; */
 }
 
 .angellist {
   position: absolute;
-  left: 68.91%;
+  left: 64.91%;
   right: 27.31%;
   top: 73.83%;
   bottom: 23.42%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  /* background: #505f79; */
 }
