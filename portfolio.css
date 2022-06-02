@@ -117,8 +117,6 @@ ul {
 }
 
 ul img {
-  display: block;
-  width: 30px;
-  height: 30px;
-  margin: auto;
+  width: 19px;
+  height: 19px;
 }
