@@ -20,14 +20,16 @@
   bottom: 0;
 
   /* Overlay / Gradient ↓ */
-  background: linear-gradient
+
+  /* background: linear-gradient
     (
       180deg,
       rgba(24, 30, 37, 0.08) 0%,
       rgba(24, 30, 37, 0.08) 84%,
       rgba(24, 30, 37, 0.02) 92%,
       rgba(24, 30, 37, 0) 100%
-    );
+    ); */
+  background: white-gray;
 }
 
 .toolbar {
@@ -47,8 +49,7 @@
   width: 90px;
   height: 28px;
 
-  /* Theme 2 / Subhead 1 */
-  font-family: Inter, Helvetica, Arial, Verdana, Tahoma;
+  /* font-family: "Inter,Helvetica, Arial, Georgi, Vaerdana, Tahoma, sans-serif,serif;"; */
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -58,10 +59,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Theme 2 / Neutral 1 */
-  color: #28352f;
-  padding-top: 10px;
   padding-left: 16px;
 
   /* Inside auto layout */
@@ -89,9 +86,7 @@
   width: 374px;
   height: 192px;
 
-  /* Theme 2 / H2 */
-
-  font-family: "Inter,Helvetica, Arial, Verdana, Tahoma, sans-serif;";
+  /* font-family: "Inter,Helvetica, Arial, Georgi, Vaerdana, Tahoma, sans-serif,serif;"; */
 
   /* font-style: normal; */
   font-style: bold;
@@ -120,8 +115,7 @@ span {
   height: 164px;
   margin-top: 120px;
 
-  /* Theme 2 / Body Reguler 1 */
-  font-family: "Inter,Helvetica, Arial, Verdana, Tahoma, sans-serif;";
+  /* font-family: "Inter,Helvetica, Arial, Georgi, Vaerdana, Tahoma, sans-serif,serif;"; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

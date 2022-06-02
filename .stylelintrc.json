@@ -7,6 +7,8 @@
       true,
       {
         "ignoreAtRules": [
+          "font-family-no-missing-generic-family-keyword",
+          "declaration-colon-newline-after",
           "tailwind",
           "apply",
           "variants",
