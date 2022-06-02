@@ -74,10 +74,11 @@
   order: 0;
   flex-grow: 0;
 }
-
-span {
+.span-text {
   color: rgb(112, 240, 112);
   color: #36b37e;
+  font-size: 58px;
+  margin-top: -54px;
 }
 
 .supporting-text {
