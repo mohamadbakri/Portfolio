@@ -8,6 +8,8 @@
   background: #fff;
   border: 2px solid rgb(228, 215, 215);
   border-radius: 5px;
+  background-image: url("/images/m1_setup/header-shapes\ mobile.png ");
+  background-repeat: no-repeat;
 }
 
 .header-section {
@@ -74,6 +76,7 @@
   order: 0;
   flex-grow: 0;
 }
+
 .span-text {
   color: rgb(112, 240, 112);
   color: #36b37e;
@@ -104,42 +107,18 @@
   flex-grow: 0;
 }
 
-.twitter {
-  position: absolute;
-  left: 27.31%;
-  right: 67.36%;
-  top: 73.83%;
-  bottom: 23.42%;
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -59px;
+  margin-top: -59px;
 }
 
-.linked-in {
-  position: absolute;
-  left: 36.04%;
-  right: 59.16%;
-  top: 73.83%;
-  bottom: 23.42%;
-}
-
-.github {
-  position: absolute;
-  left: 54.04%;
-  right: 36.16%;
-  top: 73.83%;
-  bottom: 23.42%;
-}
-
-.medium {
-  position: absolute;
-  left: 44.38%;
-  right: 46.29%;
-  top: 74.1%;
-  bottom: 23.69%;
-}
-
-.angellist {
-  position: absolute;
-  left: 64.91%;
-  right: 27.31%;
-  top: 73.83%;
-  bottom: 23.42%;
+ul img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
 }
