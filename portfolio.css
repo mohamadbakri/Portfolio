@@ -18,7 +18,8 @@
   right: 0;
   top: 0;
   bottom: 0;
-
+  background-image: url("/images/m1_setup/header-shapes mobile.png");
+  background-repeat: no-repeat;
   /* Overlay / Gradient ↓ */
 
   /* background: linear-gradient
@@ -106,8 +107,13 @@
   flex-grow: 0;
 }
 
-span {
+.span-text {
+  margin-top: -30px;
   color: #36b37e;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 70px;
 }
 
 .supporting-text {
