@@ -20,6 +20,7 @@
   bottom: 0;
   background-image: url("/images/m1_setup/header-shapes mobile.png");
   background-repeat: no-repeat;
+
   /* Overlay / Gradient ↓ */
 
   /* background: linear-gradient
@@ -30,7 +31,6 @@
       rgba(24, 30, 37, 0.02) 92%,
       rgba(24, 30, 37, 0) 100%
     ); */
-  background: white-gray;
 }
 
 .toolbar {
