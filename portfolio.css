@@ -12,6 +12,40 @@
   background-repeat: no-repeat;
 }
 
+.center {
+  top: 23px;
+  left: 397px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  background-color: black;
+  float: right;
+}
+
+.center::before,
+.center::after,
+.center div {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 1px;
+  margin: 2px 0;
+  transition: 0.5s;
+}
+
+.center:hover::before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.center:hover::after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.center:hover div {
+  transform: scale(0);
+}
+
 .header-section {
   position: absolute;
   left: 0;
@@ -26,7 +60,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: url("/images/m1_setup/toolbar-mobile.png");
   background-repeat: no-repeat;
 }
 
@@ -117,8 +150,6 @@ ul {
 }
 
 ul img {
-  display: block;
-  width: 30px;
-  height: 30px;
-  margin: auto;
+  width: 19px;
+  height: 19px;
 }

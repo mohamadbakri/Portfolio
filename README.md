@@ -1,9 +1,10 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # portfolio
 
-> portfolio-mobile version-
+> This a mobile viersion fo my portfolio
+> just to show my name and my specialities
+> and links for my social media
 
 ## Built With
 
