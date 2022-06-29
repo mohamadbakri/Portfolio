@@ -11,6 +11,7 @@
   background-image: url("/images/m1_setup/header-shapes\ mobile.png ");
   background-repeat: no-repeat;
 }
+
 .center {
   top: 23px;
   left: 397px;
@@ -20,8 +21,9 @@
   background-color: black;
   float: right;
 }
-.center:before,
-.center:after,
+
+.center::before,
+.center::after,
 .center div {
   background: #fff;
   content: "";
@@ -31,12 +33,15 @@
   margin: 2px 0;
   transition: 0.5s;
 }
-.center:hover:before {
+
+.center:hover::before {
   transform: translateY(12px) rotate(135deg);
 }
-.center:hover:after {
+
+.center:hover::after {
   transform: translateY(-12px) rotate(-135deg);
 }
+
 .center:hover div {
   transform: scale(0);
 }
@@ -55,7 +60,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-  /* background-image: url("/images/m1_setup/toolbar-mobile.png"); */
   background-repeat: no-repeat;
 }
 
